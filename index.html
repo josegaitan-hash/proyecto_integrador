@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sra. Naranja</title>
+    <link rel="icon" type="imagen" href="images/naranja.jpg" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          class="logonaranja"
+          src="images/naranja.jpg"
+          alt="Logo"
+          height="80px"
+          width="80px"
+        />
+      </nav>
+
+      <nav class="menu">
+        <ul class="menu2">
+          <li class="menuitems">Inicio</li>
+          <li class="menuitems">Portafolio</li>
+          <li class="menuitems">Presentaciones</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h1 class="titleh1inicio">Pulpas de fruta Sra. Naranja</h1>
+    </section>
+    <section>
+      <p class="ptitulo">
+        Sra. Naranja: frescura que se siente, <br />
+        calidad que se disfruta.
+      </p>
+      <img
+        class="imagentitulo"
+        src="images/naranjainicio.jpg"
+        alt="Imagen inicio"
+      />
+    </section>
+
+    <h1 class="title-h1">¡Realiza tu pedido!</h1>
+
+    <section class="contenido">
+      <div class="imagen2">
+        <img src="/images/presentaciones.png" alt="Presentaciones pulpas" />
+      </div>
+
+      <div class="contenido">
+        <form
+          class="formulario"
+          action="https://docs.google.com/spreadsheets/d/1g_Ds0ZCL4q-Tkc9FWjVCZXZIoi9kS2K1RXgFlr83S_E/edit?usp=sharing"
+          method="post"
+        >
+          <h2
+            style="
+              font-family:
+                &quot;Trebuchet MS&quot;, &quot;Lucida Sans Unicode&quot;,
+                &quot;Lucida Grande&quot;, &quot;Lucida Sans&quot;, Arial,
+                sans-serif;
+            "
+          >
+            ¿Precio mayorista para tu negocio?
+          </h2>
+          <p
+            style="
+              font-family:
+                &quot;Trebuchet MS&quot;, &quot;Lucida Sans Unicode&quot;,
+                &quot;Lucida Grande&quot;, &quot;Lucida Sans&quot;, Arial,
+                sans-serif;
+            "
+          >
+            Puedes cotizar tu pedido aquí
+          </p>
+          <div class="campo nombre">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+
+          <div class="datos">
+            <div class="campo">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="campo">
+              <label for="numero">Número</label>
+              <input type="tel" id="numero" name="numero" required />
+            </div>
+          </div>
+
+          <div>
+            <label for="pedido">Pedido</label>
+            <textarea id="pedido" name="pedido" required></textarea>
+          </div>
+
+          <button type="submit" class="enviar">ENVIAR</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
