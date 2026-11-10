@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.presentaciones {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.presentaciones h2 {
+    color: #27823B;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.descripcion {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.presentacion {
+    margin-bottom: 25px;
+}
+
+.presentacion h3 {
+    color: #27823B;
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.presentacion p {
+    color: #555;
+    font-size: 16px;
+}
