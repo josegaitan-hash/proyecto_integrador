@@ -1,0 +1,88 @@
+
+body {
+    margin: 40px 60px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #285331;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.logonaranja {
+    display: block;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: #285331;
+    margin-right: 8px;
+}
+
+.introduccion {
+    margin-top: 30px;
+}
+
+.contacto {
+    margin-bottom: 35px;
+}
+
+.cotizacion {
+    margin-top: 30px;
+}
+
+.formulario {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #285331;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c3d24;
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
+
+    textarea, input {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
